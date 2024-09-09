@@ -1,18 +1,20 @@
-body {
-  display: flex;
+html {
   height: 100vh;
   width: 100vw;
+}
+body {
+  display: flex;
+  min-height: 100%;
   flex-direction: column;
-  border: 10px red solid;
   margin: 0px;
 }
 header {
-  height: 33%;
+  height: 30%;
 }
 section {
-  height: 33%;
+  height: 30%;
   display: grid;
 }
 footer {
-  height: 33%;
+  height: 30%;
 }
