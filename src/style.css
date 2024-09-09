@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  border: 10px red solid;
+  margin: 0px;
+}
+header {
+  height: 33%;
+}
+section {
+  height: 33%;
+  display: grid;
+}
+footer {
+  height: 33%;
+}
